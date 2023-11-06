@@ -1,0 +1,145 @@
+* {
+    color: #192F60;
+}
+
+.gallery_button{
+    position: absolute;
+    left: 57em;
+    top: 25em;
+    width: 240px;
+    height: 40px;
+    opacity: 0.8;
+    background-color: #fff;
+    color: #192F60;
+}
+
+.Restaurant_Name{
+    font-size: 33px;
+    font-weight: 600;
+    color: #192F60;
+}
+
+.order_btn {
+    float: right;
+    width: 190px;
+    height: 50px;
+    /* font-weight: 500; */
+    color: #fff;
+}
+
+.tab [type=radio] {
+    display: none;
+}
+
+.tabs {
+    position: relative;
+    margin: 84px 50px;
+    clear: both;
+    background: #fff;
+    min-height: 200px;
+}
+
+.tab {
+    float: left;
+}
+
+.tab label {
+    /*margin-left: 15px;*/
+    position: relative;
+    /*left: 6px;*/
+    top: -50px;
+    margin-top: 4px;
+}
+
+.content {
+    position: absolute;
+    top: -22px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 30px 0;
+    border-top: 1px solid #D2D9E6;
+    opacity: 0;
+}
+
+[type=radio]:checked~label {
+    background: #fff;
+    border-bottom: 1px solid #fff;
+    z-index: 0;
+    border-bottom: solid 4px red;
+
+}
+
+[type=radio]:checked~label~.content {
+    z-index: 0;
+    opacity: 1;
+}
+
+/* MODAL */
+
+.modal_cross {
+    float: right;
+}
+
+.modal_subtitle {
+    font-size: 13px;
+    color: #696B78;
+}
+
+.modal_image {
+    width: 105px;
+    height: 90px;
+    border-radius: 10px;
+    margin-top: -66px;
+    margin-left: 17px;
+}
+
+.add {
+    position: absolute;
+    margin-top: -1rem;
+    left: 78.5%;
+}
+
+.qty_set {
+    position: absolute;
+    margin-top: 7px;
+    left: 75.9%;
+}
+
+.qty {
+    width: 25px;
+    padding-top: 7px;
+    text-align: center;
+}
+
+.price_box {
+    margin: -18px -20px -20px -20px;
+    position: relative;
+    z-index: 1;
+    height: 70px;
+    padding: 17px 0px 10px 34px;
+}
+
+.next_box {
+    margin: 20px -32px -17px -32px;
+    position: relative;
+    z-index: 1;
+    height: 75px;
+    padding-right: 50px;
+}
+
+.form-group ::-ms-input-placeholder { /* Edge Browser */
+    color: #B4B5BC;
+}
+
+.form-group ::placeholder {
+    color: #B4B5BC;
+    opacity: 1; /* Other Browser */
+}
+
+/* Gallery Modal */
+
+.bannerImg {
+    width: auto;
+    height: 33rem;
+}
